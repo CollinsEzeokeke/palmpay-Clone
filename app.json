@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "palmpay-Clone",
+    "slug": "palmpay-Clone",
+    "version": "1.0.0",
+    "scheme": "palmpay-Clone",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.collinstech.palmpayClone"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0a4b159b-47db-4330-876d-62c8fc3472c5"
+      }
+    }
+  }
+}
